@@ -12,6 +12,4 @@ pub struct Opts {
 
     #[clap(short = 'p', long = "pwd")]
     pub pwd: Option<PathBuf>,
-    // #[clap(default_value = "")]
-    // pub operations: Vec<String>
 }
